@@ -21,6 +21,9 @@ gem 'jbuilder', '~> 2.0'
 # Use Puma as the app server
 gem 'puma'
 
+gem 'hamlit'
+gem 'omniauth-github'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -30,6 +33,10 @@ gem 'puma'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails'
+  gem 'turnip'
+  gem 'bullet'
+  gem 'ruby-prof'
 end
 
 group :development do
