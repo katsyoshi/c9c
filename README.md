@@ -12,6 +12,10 @@
 - template engine
   - hamlit
 
+- test framework
+  - rspec
+  - turnip
+
 ## WHAT'S THIS
 
 * online editor for rails
