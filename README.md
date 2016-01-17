@@ -1,16 +1,16 @@
 ## README
 
-* RubyVersion
-- 2.3.0
+- RubyVersion
+  - 2.3.0
 
-* Rails Version
-- 5.0.0.bata
+- Rails Version
+  - 5.0.0.bata
 
-* DB
-- Postgresql 9.4.5
+- DB
+  - Postgresql 9.4.5
 
-* template engine
-- hamlit
+- template engine
+  - hamlit
 
 ## WHAT'S THIS
 
