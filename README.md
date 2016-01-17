@@ -16,6 +16,10 @@
   - rspec
   - turnip
 
+- profiler
+  - bullet
+  - ruby-prof
+
 ## WHAT'S THIS
 
 * online editor for rails

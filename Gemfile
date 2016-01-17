@@ -35,6 +35,8 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'turnip'
+  gem 'bullet'
+  gem 'ruby-prof'
 end
 
 group :development do

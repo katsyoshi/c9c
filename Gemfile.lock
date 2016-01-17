@@ -47,6 +47,9 @@ GEM
       tzinfo (~> 1.1)
     arel (7.0.0)
     builder (3.2.2)
+    bullet (5.0.0)
+      activesupport (>= 3.0.0)
+      uniform_notifier (~> 1.9.0)
     byebug (8.2.1)
     celluloid (0.17.2)
       celluloid-essentials
@@ -186,6 +189,7 @@ GEM
       rspec-mocks (~> 3.1.0)
       rspec-support (~> 3.1.0)
     rspec-support (3.1.2)
+    ruby-prof (0.15.9)
     spring (1.6.2)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
@@ -210,6 +214,7 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    uniform_notifier (1.9.0)
     web-console (3.0.0)
       activemodel (>= 4.2)
       debug_inspector
@@ -222,6 +227,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bullet
   byebug
   coffee-rails (~> 4.1.0)
   hamlit
@@ -232,6 +238,7 @@ DEPENDENCIES
   puma
   rails (>= 5.0.0.beta1, < 5.1)
   rspec-rails
+  ruby-prof
   spring
   turbolinks
   turnip
