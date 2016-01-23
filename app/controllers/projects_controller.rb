@@ -15,4 +15,8 @@ class ProjectsController < ApplicationController
   rescue ActiveRecord::RecordInvalid => ex
     redirect_to root_path
   end
+
+  def show(id: )
+    @project = Project.find(id)
+  end
 end
