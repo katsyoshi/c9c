@@ -12,5 +12,7 @@ class ProjectsController < ApplicationController
   def create(project: )
     @project = Project.create!(project)
     redirect_to projects_path
+  rescue ActiveRecord::RecordInvalid => ex
+    redirect_to root_path
   end
 end
