@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Project, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'Create Project' do
+    let(:project) { Project.create(name: 'foo') }
+    before { project }
+    after { Project.destroy(project.id) }
+  end
 end
