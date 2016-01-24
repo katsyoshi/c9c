@@ -1,0 +1,4 @@
+root:
+  - Rails.root
+  - vendor
+  - develop

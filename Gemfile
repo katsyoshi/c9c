@@ -13,6 +13,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'sass-rails'
 
 gem 'action_args'
+gem 'config'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
