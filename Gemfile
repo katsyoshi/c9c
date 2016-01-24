@@ -42,6 +42,7 @@ group :development, :test do
   gem 'turnip'
   gem 'bullet'
   gem 'ruby-prof'
+  gem 'pry-rails'
 end
 
 group :development do

@@ -1,0 +1,5 @@
+%h3= t('model.projects')
+
+- @projects.each do |project|
+  = link_to project.name, project
+  %br
